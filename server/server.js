@@ -17,7 +17,7 @@ app.get('/api/dog-fact', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-  res.send('API is running')
+  res.send('Dog Facts API is running')
 })
 
 const PORT = process.env.PORT || 3001
